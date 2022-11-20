@@ -1,0 +1,104 @@
+
+.main {
+  margin: auto;
+  
+  min-width: 300px;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.endessou {
+    position: fixed;
+    bottom: 0px;
+     left: 0px;
+     right: 0px;
+     width: calc(100% -120%);
+   
+
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.headerBuffer {
+  height: 60px;
+}
+
+.boxContainer {
+  display: block;
+  
+
+}
+.test{
+    display: block;
+    
+    
+}
+
+
+
+
+.box {
+  flex: 1;
+  font-size: 0.8em;
+  text-align: justify;
+  min-width: 150px;
+  margin-bottom: 20px;
+  border: solid grey 4px;
+  background-color: rgb(107, 107, 150) ;
+}
+.largeBox {
+    flex: 2 !important;
+    border: solid grey 4px;
+    background-color: white;
+  }
+
+.box img {
+  width: 100%;
+}
+
+.title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2em;
+}
+.secondairetitre{
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 2.5em;
+    color: rgb(155, 87, 87);
+}
+.order1{
+  order: 1;
+}
+.order2{
+  order: 2;
+}
+.order3{
+  order: 3;
+}
+  
+
+@media screen and (min-width: 600px) {
+  .boxContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  
+}
+
+
